@@ -26,7 +26,7 @@ executables = [Executable(
 
 setup(
     name="desktopdir",
-    version="0.1",
+    version="1.0",
     author = "Sidharth S",
     description="Drive shortcut creator in desktop for Windows",
     executables=executables,

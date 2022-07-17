@@ -24,7 +24,8 @@ def deskdir():
     existingdrives = list()
 
     while True:
-        time.sleep(1)
+        # ideal wait time after much trial and error
+        time.sleep(0.6)
 
         drives = win32api.GetLogicalDriveStrings()
         drives = drives.split('\000')[:-1]  # ['C:\\','E:\\','G:\\']
